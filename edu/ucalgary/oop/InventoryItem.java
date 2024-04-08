@@ -4,7 +4,7 @@ package edu.ucalgary.oop;
  * Manages the details of individual inventory items, including type, availability of components, and cost.
  * @version 1.3
  * @since 1.0
- * @author Praveen De Silva
+ * @author Dainielle Puno, Praveen De Silva, Salma Ineflas, Shahzeb Ahmed
  */
 public class InventoryItem {
     private String category;
