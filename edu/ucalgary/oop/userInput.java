@@ -1,8 +1,7 @@
 package edu.ucalgary.oop;
 
 /**
- * This class handles the printing of the orderform
- * in an output.txt file.
+ * This class handles the printing of the output text file
  * @version 1.0
  * @since 1.0
  * @author  Dainielle Puno, Praveen DE SILVA, Salma Ineflas, Shahzeb Ahmed
