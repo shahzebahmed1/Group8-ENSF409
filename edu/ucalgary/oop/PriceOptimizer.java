@@ -63,7 +63,7 @@ public class PriceOptimizer {
                         }
                     }
                     boolean[] availability = convertStringsToBooleans(convertListToStringArr(s));
-                    furniture.add(new InventoryItem(results.getString("Type"),results.getString("itemId"),results.getInt("Price"), availability));
+                    furniture.add(new InventoryItem(results.getString("Type"),results.getString("ID"),results.getInt("Price"), availability));
                 }
             }
             
