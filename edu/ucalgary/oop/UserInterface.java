@@ -284,7 +284,7 @@ public class UserInterface {
     }
 
     /**
-     * Writes the order form to an output file named "output.txt".
+     * Writes the order form to an output file named "orderform.txt".
      * If the requested items are available, it details the items and total cost.
      * Otherwise, it suggests alternative manufacturers.
      *
@@ -292,7 +292,7 @@ public class UserInterface {
      */
     public String writeFile() {
         try {
-            File file = new File("output.txt");
+            File file = new File("orderform.txt");
             if (!file.exists()) {
                 file.createNewFile();
             }
