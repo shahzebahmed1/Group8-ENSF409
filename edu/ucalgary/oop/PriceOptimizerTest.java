@@ -18,6 +18,7 @@ import java.sql.*;
  * @version 1.5
  * @since 1.0
  */
+// NOTE: This test assumes that no modifications has been made to the inventory.sql provided
 
 public class PriceOptimizerTest {
   private final String DBURL = "jdbc:postgresql://localhost/inventory";
